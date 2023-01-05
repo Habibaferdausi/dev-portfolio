@@ -49,10 +49,7 @@ nav li {
   align-items: center;
   margin: 0 200px;
 }
-.banner img {
-  margin-left: 578px;
-  justify-items: flex-end;
-}
+
 .banner-title {
   font-weight: 700;
   font-size: 85px;
