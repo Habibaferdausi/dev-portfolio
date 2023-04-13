@@ -31,7 +31,9 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin-top: 20px;
+  margin-left: 150px;
+  padding-right: 150px;
 }
 nav ul {
   display: flex;
@@ -196,4 +198,57 @@ input {
 
 .contact a {
   text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  .nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner {
+    margin: 0 20px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .nav,
+  .banner,
+  .skills-container,
+  .resume-content,
+  .about-info-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .about {
+    padding: 20px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0 0 0 5px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .about,
+  .contact {
+    padding: 20px;
+  }
+  .contact,
+  .banner {
+    flex-direction: column;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0 0 0 5px;
+  }
+  .nav ul {
+    flex-direction: column;
+    gap:20px;
+    align-items: flex-start;
+    padding-left: 20px;
 }
