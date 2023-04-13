@@ -246,13 +246,19 @@ textarea {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .about,
-  .contact {
+  .contact, .about-info-container , .resume {
     padding: 20px;
   }
   .contact,
-  .banner {
+  .banner , .about-info-container , .skills-container {
     flex-direction: column;
   }
+  .about-info{
+    margin-top: 20px;
+
+  }
+
+
   .contact input[type="text"],
   input[type="email"],
   textarea {
