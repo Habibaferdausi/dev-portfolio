@@ -11,22 +11,22 @@
   color: #fd6e0a;
 }
 .button-primary {
-  height: 64px;
+ text-align: center;
   border-radius: 5px;
   background-color: #fd6e0a;
   color: white;
   font-size: 20px;
   border: 0;
-  padding: 18px 35px;
+  padding: 10px 20px;
 }
 .button-primary1 {
-  height: 64px;
+
   border-radius: 5px;
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
   font-size: 20px;
   margin: 30px;
-  padding: 18px 35px;
+  padding: 10px 20px;
 }
 nav {
   display: flex;
