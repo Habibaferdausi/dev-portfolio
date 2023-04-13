@@ -89,13 +89,14 @@ nav li {
   text-align: center;
 }
 .section {
-  margin-top: 140px;
+  margin-top: 70px;
+  
 }
 .section-title {
   text-align: center;
   font-weight: 700;
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .section-description {
@@ -151,12 +152,17 @@ nav li {
 .resume-content {
   display: flex;
   gap: 24px;
-  margin: 130px;
-  padding: 0 70px;
+ margin-top: 20px;
+ margin-left: 200px;
+ margin-right: 100px;
 }
 .resume-item {
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-right:40px;
+}
+hr{
+  width: 75%;
 }
 .resume .title {
   font-weight: 700;
@@ -172,6 +178,7 @@ nav li {
 }
 .resume .description {
   color: #757575;
+  width: 75%;
 }
 
 .resume-button {
